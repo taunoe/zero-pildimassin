@@ -59,11 +59,12 @@ The GoCV package provides Go language bindings for the OpenCV 4 computer vision 
 
 * [GoCV Raspbian installation](https://github.com/hybridgroup/gocv#raspbian)
 
-    cd src
-    git clone https://github.com/hybridgroup/gocv.git
-    cd gocv
-    make install_raspi
-    
+```
+cd src
+git clone https://github.com/hybridgroup/gocv.git
+cd gocv
+make install_raspi
+```
 
 ## Links
 
