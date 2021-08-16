@@ -32,7 +32,7 @@ Example:
     scp [source] pi@[IP]:[destination]
     scp Downloads\MagPi83.pdf pi@192.168.0.41:/home/pi/MagPi
 
-## Install GOlang
+## Install Go-lang
 
 * [How to Install Go on the Raspberry Pi](https://www.jeremymorgan.com/tutorials/raspberry-pi/install-go-raspberry-pi/)
 
@@ -52,6 +52,18 @@ Update your shell and check Go version:
 
     source ~/.profile
     go version
+    
+## Install GoCV
+
+The GoCV package provides Go language bindings for the OpenCV 4 computer vision library.
+
+* [GoCV Raspbian installation](https://github.com/hybridgroup/gocv#raspbian)
+
+    cd src
+    git clone https://github.com/hybridgroup/gocv.git
+    cd gocv
+    make install_raspi
+    
 
 ## Links
 
